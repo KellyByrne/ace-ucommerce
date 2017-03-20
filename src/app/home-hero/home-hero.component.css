@@ -1,0 +1,14 @@
+@media only screen and (min-width: 320px) and (max-width:1023px) {
+   .ace-hero {background: url("/images/aceheromobile.png") no-repeat center; background-size: cover;height:261px;}
+   .hero-container .reviews-vid {display:none;}
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+ .ace-hero {background: url("/images/acehero.png") no-repeat left top; background-size: cover;}
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+ .ace-hero {background:none;}
+}
+
+.hero-container {background:#e6e6e6;}

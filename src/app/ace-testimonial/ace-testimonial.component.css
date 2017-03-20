@@ -1,0 +1,6 @@
+.herotesti {background-image: url(/assets/images/acetestimonialimg.gif);}
+
+@media only screen and (min-width: 320px) and (max-width:1023px) {
+ .herotesti {background-image: url(/assets/images/testimobile.gif);}
+}
+ 

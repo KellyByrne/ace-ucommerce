@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css", 
+        "../node_modules/slick-carousel/slick/slick.css",
+        "../node_modules/slick-carousel/slick/slick-theme.css",
+        "../node_modules/foundation-sites/dist/css/foundation.min.css"
+
       ],
-      "scripts": [],
+      "scripts": ["../node_modules/foundation-sites/dist/js/foundation.js",
+       "../node_modules/slick-carousel/slick/slick.min.js",
+       "../other_scripts/brightcove.js"
+       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

@@ -1,0 +1,6 @@
+.interior-hero {background: url(/assets/images/Business_Hero.jpg) no-repeat left top; background-size: cover;}
+
+@media only screen and (min-width: 320px) and (max-width:1023px) {
+.interior-hero {background: url("~/media/5158FAD35C714958B8645400B426246B.ashx") no-repeat center; background-size: cover;}
+}
+  
