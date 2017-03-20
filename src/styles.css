@@ -845,6 +845,7 @@ input:focus{outline: none;}
 .ace .interior-hero .banner-text {position:static;text-align:left;}
 .ace .red-hero .ace-price {font-size:87px;font-weight:700;font-family:"proxima-nova" !important;}
 .ace .red-hero .red-span {font-family:"proxima-nova" !important; font-weight:600;font-size:16px;}
+.ace .under-hero {padding-bottom:50px;}
 .ace .interior-hero .banner-text {position:static;}
 .ace .hero-container .bc-player-default_default {bottom:104px;}
 .ace .bcrumbs {margin-bottom:20px;margin-top:0px;padding-top:15px;border-top: 2px solid #ececec;}
@@ -853,6 +854,77 @@ input:focus{outline: none;}
 .ace .hero-container a .button i {font-size:21px;top:11px;right:35px;}
 .ace .interior-hero .gray-hero li::before {font-family:"FontAwesome";content:"\f00c";color:#7d7d7d;}
 .ace .bc-player-default_default .vjs-control-bar {display:none;}
+.ace .cart-paths {background-color:#f3f3f3;height:85px;margin-bottom:80px;}
+.ace .cart-paths .c-path {display:inline-block;padding-right:50px;padding-top:25px;}
+.ace .cart-paths .c-path .circle {height:30px;width:30px;border-radius:50%;background-color:#cccccc;color:#fff; font-size:18px;font-weight:600;font-family:"proxima-nova" !important;display:inline-block;padding-left:10px;padding-top:1px;}
+.ace .cart-paths .c-path p {font-size:14px;font-weight:600;color:#636363;text-transform:uppercase;display:inline-block;letter-spacing:1px;padding-left:5px;}
+.ace .cart-paths .c-path.active .circle {background-color:#163247;}
+.ace .cart-paths .c-path.active p {color:#163247;font-weight:700;}
+.ace .ace-title h2 {line-height:65px;}
+.ace .cart-accordion .cart-title {height:72px;width:100%;text-transform:uppercase;padding-left:40px;font-family:"proxima-nova";letter-spacing:2px;font-size:28px;font-weight:900;padding-top:15px;}
+.cart-accordion .cart-section {margin-bottom:20px;}
+.cart-title.active {background-color:#163247;color:#fff;}
+.cart-title.inactive {background-color:#f3f3f3;color:#222222;}
+.cart-title.complete {background-color:#3fb9e7;color:#fff;}
+.cart-section a:hover {text-decoration:none;}
+.cart-section .cart-form {-webkit-box-shadow: 0 1px 3px 3px rgba(243, 243, 243, 0.7);-moz-box-shadow:0 1px 3px 3px rgba(243, 243, 243, 0.7);box-shadow: 0 1px 3px 3px rgba(243, 243, 243, 0.7);height:auto;}
+.cart-section .cart-form .gray-line1 {margin-left:37px;}
+.cart-section .cart-form .gray-line1, .cart-section .cart-form .gray-line2 {width:37%;}
+.cart-section .cart-form .gray-line2 {margin-right:37px;}
+.ace .cart-section .cart-form .cart-rules {padding: 0 40px 30px;text-align: center;}
+.ace .cart-section .cart-form .cart-rules .red-circle {background-color:#e64e43;height:10px;width:10px;border-radius:50%;margin:0 auto;margin-bottom:10px;}
+.ace .cart-section .cart-form .cart-rules p {font-size:16px; font-weight:400;color:#636363;text-transform:none;text-align:center;}
+.ace .cart-section .cart-form .cart-rules p span {font-weight:700;}
+.ace .cart-section .cart-form .cart-contents {background-color:#f3f3f3;padding:37px;padding-bottom:0px;}
+.ace .cart-section .cart-form .cart-contents p, .ace .cart-section .cart-form p {color:#222222;font-weight:700;text-transform:uppercase;font-size:18px;text-align:left;}
+.ace .cart-section .cart-form .cart-item {background-color:#f7f7f7;height:auto;padding:20px 25px 0px;}
+.ace .cart-section .cart-form .cart-item p.title {color:#0694c9;font-size:20px;font-weight:700;text-align:left;text-transform:none;}
+.ace .cart-section .cart-form .cost {color:#636363;font-size:18px;font-weight:600;display:inline-block;}
+.ace .cart-section .cart-form .cart-item .remove {display:inline-block; float:right;}
+.ace .cart-section .cart-form .cart-item .remove p {display:inline-block;text-transform:uppercase; color:#0694c9;font-size:14px;font-weight:600;}
+.ace .cart-section .cart-form .cart-item .remove .blue-circle {background-color: #0694c9;height: 20px;width: 20px;border-radius: 50%;color: #fff;font-size: 20px;margin-left: 5px;display:inline-block;}
+.ace .cart-section .cart-form .pricing {padding:37px;background-color:#f3f3f3;}
+.ace .cart-section .cart-form .pricing p {display:inline-block;}
+.ace .cart-section .cart-form .pricing input {display:inline-block;width:50%;}
+.ace .cart-section .cart-form .continue-section, .ace .cart-section .personal-details, .ace .cart-section .marketing-optional {padding:37px;}
+.ace .cart-section .cart-form .continue-section .aceenrollnow {float:right;}
+.ace .cart-section .cart-form .continue-section a {text-transform:uppercase;font-size:14px;font-weight:600;color:#0694c9;}
+.ace .cart-section .cart-form .continue-section .reminder {color:#636363;font-size:20px;font-weight:600;font-style:italic;display:inline-block;width:71%;text-align:center;padding-right:100px;padding-left:100px;}
+.ace .cart-section label,.ace .cart-section .marketing-optional label {color:#2c2e2e;font-size:18px;font-weight:600;padding-bottom:5px;}
+.ace .cart-section select, .ace .cart-section .marketing-optional select {border:1px solid #cacaca;box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);}
+.ace .cart-section input#studentid {float:left !important;}
+.ace .cart-section .input-left {float:left !important;}
+.ace .cart-section .marketing-optional {background-color:#f3f3f3;}
+.ace .validation-error {color:#ff0101;text-align:center;font-size:18px;font-weight:600;padding-bottom:37px;display:none;}
+.ace .cart-section .cart-form .payment-options p {font-size:18px;font-weight:400;color:#636363;text-align:left;width:75%;line-height:30px;}
+.ace .cart-section .payment-options {padding:37px;}
+.ace .cart-section  p.pay-instruct {font-size:18px;font-weight:400;color:#636363;text-align:left;text-transform:none;}
+.ace .cart-section .payment-options .pay-amt {color:#636363;font-size:26px;font-weight:400;border:2px solid #cccccc;padding:10px;display:inline-block;margin-right:20px;}
+.ace .cart-section .payment-options .pay-amt span {font-weight:800;font-size:30px;}
+.ace .cart-section .payment-options .payment-active {color:#2e2e2e;border:2px solid #3fb9e7;}
+.ace .cart-section .payment-options h4 {font-style:italic;font-size:20px;font-weight:600;color:#636363;text-align:center;padding-bottom:25px;}
+.ace .cart-section .payment-options .pay-boxes {margin: 37px 130px 50px;}
+.ace .cart-section .lined-title-name {width:19% !important;color:#636363 !important;text-align:center !important;font-weight:600 !important;font-size:21px !important;line-height:0.5 !important;}
+.ace .cart-section .payment-options .gray-line1, .ace .cart-section .payment-options .gray-line2 {margin-right:0px; margin-left:0px;width:40%;}
+.ace .payment-options .pay-type {font-size:18px;font-weight:800;color:#222222;text-transform:uppercase;text-align:center;letter-spacing:1px;border:2px solid #cccccc;padding:20px;}
+.ace .payment-options .pay-type i {font-size:45px; color:#cccccc;display:block;text-align:center;padding-bottom:20px;}
+.ace .payment-options .pay-type.pay-active {border: 2px solid #0694c9;}
+.ace .payment-options .pay-type.pay-active i {color:#0694c9;}
+.ace .cart-section .lined-title {margin-top:60px;}
+.ace .cart-section .shipping-info {padding-top:0px;}
+.ace .cart-section .shipping-info .same-address {background-color:#f3f3f3;padding:12px 0px 5px 20px;margin-bottom:15px;}
+.ace .cart-review .cart-form .review-title {background-color:#163247;color:#fff;}
+.ace .cart-review .cart-form .review-title a {color:#fff;}
+.ace .cart-review .cart-form {padding:37px;}
+.ace .cart-review .cart-form .cart-form {padding:0px;box-shadow:none;}
+.ace .cart-review .cart-contents, .ace .cart-review .pricing, .ace .cart-review .cart-item {background-color:transparent !important;}
+.ace .cart-review .cart-contents .table-labels {background-color:#f3f3f3;}
+.ace .cart-review .cart-item {border-bottom:1px solid #f3f3f3;}
+.ace .cart-review .pricing {border-top:2px solid #f3f3f3;}
+.ace .cart-review .pricing-total {border-top:2px solid #f3f3f3;}
+.ace .cart-review .pricing .voucher-code {text-transform:none;color:#636363;font-weight:600;font-size:20px;}
+.ace .cart-review .personal-details p {display: inline-block;color:#636363;text-transform:none;font-size:18px;font-weight:400;}
+.ace .cart-review .personal-details p.label-review {color:#2c2e2e;font-size:18px;font-weight:600;}
 
 @media only screen and (min-width: 1023px) and (max-width:1440px) { /*medium font sizing*/
     .hero .banner-text .main-heading{font-size: 60px;}

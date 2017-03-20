@@ -10,9 +10,19 @@ declare var $;
 
 export class InteriorHeroComponent implements OnInit {
   backgroundImage = "/assets/images/Business_Hero.jpg";
-  constructor(private _http : Http) { }
+  subject;
+  constructor(private _http : Http) {
+     this._http.get('../business.json').subscribe(result => {
+        console.log(result.json())
+        this.subject= result.json();
+      })
+   }
 
   ngOnInit() {
+
+
+   
+
     var rset = $(window).width() - ($('.hdr-info-bot').offset().left + $('.hdr-info-bot').outerWidth());
     $('.gray-hero').css('right', rset);
 
@@ -23,8 +33,6 @@ export class InteriorHeroComponent implements OnInit {
               scrollTop: $("a[name='" + revisedmore + "']").offset().top - 75
           }, 1000);
       });
-
-      this._http.get('/../business.json').subscribe(result => {console.log(result);})
 
   }
 

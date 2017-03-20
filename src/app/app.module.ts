@@ -20,6 +20,7 @@ import { InteriorHeroComponent } from './interior-hero/interior-hero.component';
 import { InteriorAllCoursesComponent } from './interior-all-courses/interior-all-courses.component';
 import { InteriorTabsComponent } from './interior-tabs/interior-tabs.component';
 import { UcommInteriorComponent } from './ucomm-interior/ucomm-interior.component';
+import { CartCheckoutComponent } from './cart-checkout/cart-checkout.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { UcommInteriorComponent } from './ucomm-interior/ucomm-interior.componen
     InteriorHeroComponent,
     InteriorAllCoursesComponent,
     InteriorTabsComponent,
-    UcommInteriorComponent
+    UcommInteriorComponent,
+    CartCheckoutComponent
   ],
   imports: [
     BrowserModule,

@@ -15,10 +15,12 @@ import { InteriorHeroComponent } from './interior-hero/interior-hero.component';
 import { InteriorAllCoursesComponent } from './interior-all-courses/interior-all-courses.component';
 import { InteriorTabsComponent } from './interior-tabs/interior-tabs.component';
 import { UcommInteriorComponent } from './ucomm-interior/ucomm-interior.component';
+import { CartCheckoutComponent } from './cart-checkout/cart-checkout.component';
 
 const APP_ROUTES: Routes = [
   { path: 'ucomm-home', component: UcommHomeComponent},
-  { path: 'ucomm-interior', component: UcommInteriorComponent }
+  { path: 'ucomm-interior', component: UcommInteriorComponent },
+  { path: 'ucomm-checkout', component: CartCheckoutComponent }
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);
